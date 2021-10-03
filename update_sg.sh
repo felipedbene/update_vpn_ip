@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/bash
 # Configuration Session
 #SecurityGroupId
 export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
