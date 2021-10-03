@@ -31,7 +31,7 @@ export sg_ip=`jq -r ".SecurityGroups[].IpPermissions[].IpRanges[].CidrIp" /tmp/c
 export current_ip=$(curl https://ifconfig.me/ip)
 export current_ip="$current_ip/32"
 #echo $current_ip
-if [ $sg_ip == $current_ip ]
+if [[ $sg_ip == $current_ip ]]
 then
   echo "Nothing to do"
 else
