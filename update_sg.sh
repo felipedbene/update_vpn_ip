@@ -5,7 +5,7 @@ export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 export groupId="sg-0a93c3ccb03ea2a88"
 
 # Aux functions
-source ~/duckdns/functions.sh
+source functions.sh
 
 # Clean Previous Credentials
 clean_env_vars
