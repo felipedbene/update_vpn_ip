@@ -1,5 +1,3 @@
-#!/usr/bin/bash
-export PATH=/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin
 function revoke_and_auth_new_ip {
   #Revoke Previous IP
   echo "Revoking old ip"
