@@ -18,7 +18,7 @@ function clean_env_vars {
   unset AWS_SESSION_TOKEN
   unset current_ip
   unset sg_ip
-  unset groupId
+  #unset groupId
 }
 
 
